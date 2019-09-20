@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>기본적인 표 만들기</h1>
-    <table>
+    <table border="1">
       <tr>
         <td>1행 1열</td>
         <td>1행 2열</td>
@@ -16,6 +16,54 @@
         <td>2행 1열</td>
         <td>2행 2열</td>
         <td>2행 3열</td>
+      </tr>
+    </table>
+
+    <hr />
+    <h1>colspan, rowspan 속성 - 행 또는 열 합치기</h1>
+    <table border="1">
+      <tr>
+        <th>이름</th>
+        <td></td>
+        <th>연략처</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <th>자기소개</th>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+
+    <hr />
+    <h1>표에 제목 붙이기</h1>
+    <table border="1">
+      <caption>
+        <strong>Modern Browser</strong>
+        <p>국내에서 자주 사용되는 모던 브라우저</p>
+      </caption>
+      <tr>
+        <th>브라우저</th>
+        <th>제조업체</th>
+        <th>다운로드</th>
+      </tr>
+      <tr>
+        <th>크롬</th>
+        <td>Google</td>
+        <td>크롬주소</td>
+      </tr>
+      <tr>
+        <th>파이어폭스</th>
+        <td>Mozilla</td>
+        <td>파이어폭스 주소</td>
+      </tr>
+      <tr>
+        <th>엣지</th>
+        <td>Microsoft</td>
+        <td>edge 주소</td>
       </tr>
     </table>
   </body>
