@@ -94,5 +94,37 @@
         </tr>
       </table>
     </figure>
+    <hr />
+    <h1>aria-describedby 속성 - 표에 대한 설명 제공하기</h1>
+    <p id="summary">
+      다음 표는 HTML5를 지원하는 모던(Modern Browser)를 정리한 것입니다. 최신
+      버전일수록 HTML5를 좀 더 많이 지원하기 때문에 최신버전을 다운로드하는것이
+      좋습니다.
+    </p>
+    <table border="1" aria-describedby="summary">
+      <caption>
+        Modern Browser
+      </caption>
+      <tr>
+        <th>브라우저</th>
+        <th>제조업체</th>
+        <th>다운로드</th>
+      </tr>
+      <tr>
+        <th>크롬</th>
+        <td>Google</td>
+        <td>크롬주소</td>
+      </tr>
+      <tr>
+        <th>파이어폭스</th>
+        <td>Mozilla</td>
+        <td>파이어폭스 주소</td>
+      </tr>
+      <tr>
+        <th>엣지</th>
+        <td>Microsoft</td>
+        <td>edge 주소</td>
+      </tr>
+    </table>
   </body>
 </html>
